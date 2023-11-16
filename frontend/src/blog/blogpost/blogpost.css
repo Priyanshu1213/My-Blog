@@ -1,0 +1,60 @@
+/* BlogPage.css (or a separate CSS file) */
+/* 
+.blogpost {
+    display: flex;
+    height: auto;
+    
+    background-color: #f4f4f4;
+    justify-content: space-around;
+  }
+  
+  
+  
+  .blogpost-1 {
+    width: 60%;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blogpost-2 {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } */
+  
+  /* blogpost.css */
+.blogpost {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  padding: 20px;
+}
+
+.blogpost-1{
+  width: 70%;
+  
+
+}
+
+.blogpost-2 {
+  
+  min-width: 100px;
+  max-width: 25%;
+  padding: 10px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .blogpost-1,
+  .blogpost-2 {
+    flex: 1;
+    max-width: 100%;
+  }
+}

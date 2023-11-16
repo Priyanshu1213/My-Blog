@@ -1,0 +1,22 @@
+.myBtnContainer {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+  

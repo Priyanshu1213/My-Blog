@@ -1,0 +1,67 @@
+/* Basic styles for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  padding: 10px 20px;
+  background-color: rgb(235, 96, 15);
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: Arial, sans-serif;
+  height: 400px;
+
+  background-image: url(https://www.mojomedialabs.com/hs-fs/hubfs/SW-mojo-blog-header-%206%20Beautiful%20Examples%20of%20Fluid%20Website%20Design.jpg?height=630&name=SW-mojo-blog-header-%206%20Beautiful%20Examples%20of%20Fluid%20Website%20Design.jpg);
+
+}
+
+.navbar-logo {
+  margin-top: 20px;
+  cursor: pointer;
+  
+}
+
+.search {
+  width: 30%;
+  height: 40px;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+/* Style for the navigation links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+
+  .search {
+    margin: 10px 0;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links li {
+    margin: 5px 0;
+  }
+}
